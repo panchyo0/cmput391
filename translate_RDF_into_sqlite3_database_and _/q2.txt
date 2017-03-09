@@ -1,0 +1,15 @@
+<http://dbpedia.org/resource/Albert_Schweitzer> <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/German> .
+<http://dbpedia.org/resource/Albert_Schweitzer> <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Kaysersberg> .
+<http://dbpedia.org/resource/Albert_Schweitzer> <http://dbpedia.org/ontology/birthPlace> <http://dbpedia.org/resource/Alsace_Lorraine> .
+<http://dbpedia.org/resource/Albert_Schweitzer> <http://dbpedia.org/property/birthPlace> "Kaysersberg, Alsace-Lorraine, Germany"@en .
+<http://dbpedia.org/resource/Albert_Schweitzer> <http://dbpedia.org/property/birthDate> "1875-01-14"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Albert_Schweitzer> <http://dbpedia.org/property/Fields> "Medicine, music, philosophy, theology" .
+<http://dbpedia.org/resource/Albert_Schweitzer> <http://dbpedia.org/property/Nobel_Peace_Prize> "1952" .
+<http://dbpedia.org/resource/Albert_Schweitzer> <http://dbpedia.org/property/deathDate> "1965-09-04"^^<http://www.w3.org/2001/XMLSchema#date> .
+<http://dbpedia.org/resource/Albert_Schweitzer> <http://dbpedia.org/property/deathPlace> "Lambaréné, Gabon"@en .
+<http://dbpedia.org/resource/Albert_Schweitzer> <http://dbpedia.org/property/prizes> <http://dbpedia.org/resource/Goethe_Prize> .
+<http://dbpedia.org/resource/Albert_Schweitzer> <http://dbpedia.org/property/prizes> <http://dbpedia.org/resource/Nobel_Peace_Prize> .
+<http://dbpedia.org/resource/Albert_Schweitzer> <http://dbpedia.org/property/citizenship> "German (1875–1919),French (1919–1965)"@en .
+<http://dbpedia.org/resource/Albert_Schweitzer> <http://dbpedia.org/property/Alma_mater> <http://dbpedia.org/resource/University_of_Strasbourg> .
+<http://dbpedia.org/resource/Albert_Schweitzer> <http://dbpedia.org/property/advisor> <http://dbpedia.org/resource/Heinrich_Julius_Holtzmann> .
+<http://dbpedia.org/resource/Albert_Schweitzer> <http://dbpedia.org/property/advisor> <http://dbpedia.org/resource/Robert_Wollenberg> .

@@ -1,0 +1,48 @@
+
+.separator ","
+
+create table airports(
+	Airport_ID int,
+	Name text,
+	City text,
+	Country text,
+	IATA text,
+	ICAO text,
+	Latitude double,
+	Longitude double,
+	Altitude double,
+	Timezone double,
+	DST text,
+	Tz_database_time_zone text);
+
+.import airports.dat.txt airports
+
+
+create table airlines(
+	Airline_ID int,
+	Name text,
+	Alias text,
+	IATA text,
+	ICAO text,
+	Callsign text,
+	Country text,
+	Active text);
+
+.import airlines.dat.txt airlines
+
+
+create table routes(
+	Airline text,
+	Airline_ID int,
+	Source_airport text,
+	Source_airport_ID int,
+	Destination_airport text,
+	Destination_airport_ID int,
+	Codeshare text,
+	Stops int,
+	Equipment text);
+
+.import routes.dat.txt routes
+
+delete from routes where stops>0;
+

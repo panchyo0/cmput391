@@ -1,0 +1,289 @@
+@prefix dbo:	<http://dbpedia.org/ontology/> .
+@prefix dbr:	<http://dbpedia.org/resource/> .
+dbr:Erwin_Schr枚dinger	dbo:notableStudent	dbr:Linus_Pauling ,
+		dbr:Brendan_Scaife ,
+		dbr:Felix_Bloch .
+@prefix dbp:	<http://dbpedia.org/property/> .
+dbr:Erwin_Schr枚dinger	dbp:notableStudents	dbr:Linus_Pauling ,
+		dbr:Brendan_Scaife ,
+		"*"@en ,
+		dbr:Felix_Bloch .
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix schema:	<http://schema.org/> .
+dbr:Marie_Curie	rdf:type	schema:Person .
+@prefix wikidata:	<http://www.wikidata.org/entity/> .
+dbr:Marie_Curie	rdf:type	wikidata:Q5 .
+@prefix foaf:	<http://xmlns.com/foaf/0.1/> .
+dbr:Marie_Curie	rdf:type	foaf:Person .
+@prefix ns7:	<http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#> .
+dbr:Marie_Curie	rdf:type	ns7:Agent ,
+		ns7:NaturalPerson .
+@prefix umbel-rc:	<http://umbel.org/umbel/rc/> .
+dbr:Marie_Curie	rdf:type	umbel-rc:Scientist ,
+		dbo:Person ,
+		dbo:Agent ,
+		umbel-rc:PersonWithOccupation ,
+		wikidata:Q215627 .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+dbr:Marie_Curie	rdf:type	owl:Thing .
+@prefix prov:	<http://www.w3.org/ns/prov#> .
+dbr:Marie_Curie	prov:wasDerivedFrom	<http://en.wikipedia.org/wiki/Marie_Curie?oldid=706494872> ;
+	dbo:birthName	"Maria Salomea Sk\u0142odowska"@en .
+@prefix xsd:	<http://www.w3.org/2001/XMLSchema#> .
+dbr:Marie_Curie	dbo:birthYear	"1867"^^xsd:gYear ;
+	dbo:child	dbr:Ir猫ne_Joliot-Curie ,
+		dbr:脠ve_Curie ;
+	dbo:deathCause	dbr:Aplastic_anemia ;
+	dbo:deathYear	"1934"^^xsd:gYear ;
+	dbo:imdbId	"0281993" ,
+		"0956189" ,
+		"0075534" ;
+	dbo:spouse	dbr:Pierre_Curie ;
+	foaf:name	"Marie Sk\u0142odowska Curie"@en ;
+	foaf:homepage	<http://www.umcs.lublin.pl/articles.php?aid=1113> ;
+	dbp:name	"Marie Sk\u0142odowska Curie"@en ;
+	foaf:depiction	<http://commons.wikimedia.org/wiki/Special:FilePath/Marie_Curie_c1920.jpg> .
+@prefix wikipedia-en:	<http://en.wikipedia.org/wiki/> .
+dbr:Marie_Curie	foaf:isPrimaryTopicOf	wikipedia-en:Marie_Curie ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/Marie_Curie_c1920.jpg?width=300> ;
+	dbo:deathPlace	<http://dbpedia.org/resource/Passy,_Haute-Savoie> ;
+	dbp:deathPlace	"Passy, Haute-Savoie, France"@en ;
+	dbo:deathDate	"1934-07-04"^^xsd:date ;
+	dbo:birthPlace	dbr:Congress_Poland ,
+		dbr:Russian_Empire ,
+		dbr:Warsaw ;
+	dbp:birthPlace	"Warsaw, Kingdom of Poland, then part of Russian Empire"@en ;
+	dbo:birthDate	"1867-11-07"^^xsd:date .
+@prefix dct:	<http://purl.org/dc/terms/> .
+@prefix dbc:	<http://dbpedia.org/resource/Category:> .
+dbr:Marie_Curie	dct:subject	dbc:Women_Nobel_laureates ,
+		dbc:French_scientists ,
+		dbc:Honorary_Members_of_the_USSR_Academy_of_Sciences ,
+		dbc:Women_chemists ,
+		dbc:Marie_Curie ,
+		dbc:Women_physicists ,
+		dbc:Nobel_laureates_in_Chemistry ,
+		dbc:Experimental_physicists ,
+		dbc:Members_of_the_Lw贸w_Scientific_Society ,
+		<http://dbpedia.org/resource/Category:19th-century_physicists> ,
+		dbc:Nobel_laureates_with_multiple_Nobel_awards ,
+		dbc:Nobel_laureates_in_Physics ,
+		dbc:French_chemists ,
+		dbc:Congress_Poland_emigrants_to_France ,
+		<http://dbpedia.org/resource/Category:19th-century_women_scientists> ,
+		dbc:Former_Roman_Catholics ,
+		<http://dbpedia.org/resource/Category:20th-century_physicists> ,
+		dbc:Polish_Nobel_laureates ,
+		dbc:Polish_agnostics ,
+		<http://dbpedia.org/resource/Category:20th-century_women_scientists> ,
+		<http://dbpedia.org/resource/Category:1934_deaths> ,
+		dbc:Polish_chemists ,
+		dbc:Discoverers_of_chemical_elements ,
+		<http://dbpedia.org/resource/Category:Burials_at_the_Panth\u00E9on,_Paris> ,
+		<http://dbpedia.org/resource/Category:Corresponding_Members_of_the_Russian_Academy_of_Sciences_(1917\u201325)> ,
+		dbc:Corresponding_Members_of_the_St_Petersburg_Academy_of_Sciences ,
+		dbc:Corresponding_Members_of_the_USSR_Academy_of_Sciences ,
+		dbc:Deaths_from_cancer_in_France ,
+		dbc:Deaths_from_anemia ,
+		<http://dbpedia.org/resource/Category:L\u00E9gion_d\u0027honneur_refusals> ,
+		dbc:People_from_Warsaw ,
+		dbc:Polish_physicists ,
+		dbc:Curie_family ,
+		dbc:People_from_Warsaw_Governorate ,
+		dbc:Radioactivity ,
+		dbc:French_people_of_Polish_descent ,
+		dbc:French_Nobel_laureates ,
+		dbc:Polish_scientists ,
+		<http://dbpedia.org/resource/Category:1867_births> ,
+		dbc:French_physicists ,
+		dbc:University_of_Paris_alumni ,
+		dbc:University_of_Paris_faculty ,
+		dbc:Nuclear_chemists ;
+	dbo:wikiPageID	20408 ;
+	dbo:wikiPageRevisionID	706494872 ;
+	dbp:birthDate	"1867-11-07"^^xsd:date ;
+	dbp:birthName	"Maria Salomea Sk\u0142odowska"@en ;
+	dbp:children	dbr:脠ve_Curie ,
+		"*"@en ,
+		dbr:Ir猫ne_Joliot-Curie ;
+	dbp:deathCause	dbr:Aplastic_anemia ;
+	dbp:deathDate	"1934-07-04"^^xsd:date ;
+	dbp:id	281993 ,
+		75534 ,
+		956189 ;
+	dbp:spouse	"Pierre Curie  m. 1895"@en .
+@prefix ns15:	<http://purl.org/voc/vrank#> .
+@prefix ns16:	<http://www.w3.org/2006/03/wn/wn20/instances/> .
+dbr:Marie_Curie	dbp:wordnet_type	ns16:synset-scientist-noun-1 .
+dbr:Pierre_Curie	dbo:spouse	dbr:Marie_Curie .
+dbr:Ava_Helen_Pauling	dbo:spouse	dbr:Linus_Pauling ;
+	dbp:spouse	dbr:Linus_Pauling .
+<http://dbpedia.org/resource/Vitamin_C_and_the_Common_Cold_(book)>	dbo:author	dbr:Linus_Pauling ;
+	dbp:author	dbr:Linus_Pauling .
+dbr:Martin_Karplus	dbo:doctoralAdvisor	dbr:Linus_Pauling ;
+	dbp:doctoralAdvisor	dbr:Linus_Pauling .
+dbr:Arnold_Sommerfeld	dbo:notableStudent	dbr:Linus_Pauling ,
+		dbr:Werner_Romberg ,
+		dbr:Herbert_Kroemer ,
+		dbr:Walter_Heitler ;
+	dbp:notableStudents	dbr:Linus_Pauling ,
+		dbr:Werner_Romberg ,
+		dbr:Herbert_Kroemer ,
+		dbr:Walter_Heitler .
+dbr:Irwin_Stone	dbo:influenced	dbr:Linus_Pauling ;
+	dbp:influenced	dbr:Linus_Pauling .
+dbr:Linus_Pauling	rdf:type	schema:Person ,
+		dbo:Agent ,
+		dbo:Scientist ,
+		umbel-rc:PersonWithOccupation ,
+		wikidata:Q215627 ,
+		wikidata:Q901 ,
+		foaf:Person ,
+		owl:Thing ,
+		wikidata:Q5 ,
+		dbo:Person ,
+		umbel-rc:Scientist ,
+		ns7:NaturalPerson ,
+		ns7:Agent ;
+	prov:wasDerivedFrom	<http://en.wikipedia.org/wiki/Linus_Pauling?oldid=706355025> ;
+	dbo:academicAdvisor	dbr:Arnold_Sommerfeld ,
+		dbr:Niels_Bohr ;
+	dbo:almaMater	dbr:California_Institute_of_Technology ,
+		dbr:Oregon_State_University ;
+	dbo:award	dbr:Priestley_Medal ,
+		dbr:National_Medal_of_Science ,
+		dbr:Lomonosov_Gold_Medal ,
+		dbr:Vannevar_Bush_Award ,
+		dbr:NAS_Award_in_Chemical_Sciences ,
+		dbr:Roebling_Medal ,
+		dbr:Irving_Langmuir_Award ,
+		dbr:Nobel_Peace_Prize ,
+		dbr:Lenin_Peace_Prize ,
+		dbr:Nobel_Prize_in_Chemistry ,
+		dbr:Davy_Medal ;
+	dbo:birthName	"Linus Carl Pauling"@en ;
+	dbo:doctoralAdvisor	<http://dbpedia.org/resource/Roscoe_G._Dickinson> ,
+		<http://dbpedia.org/resource/Richard_C._Tolman> ;
+	dbo:doctoralStudent	dbr:Jerry_Donohue ,
+		dbr:Martin_Karplus ,
+		dbr:Edgar_Bright_Wilson ,
+		dbr:William_Lipscomb ,
+		dbr:Matthew_Meselson ;
+	dbo:field	dbr:Quantum_chemistry ,
+		dbr:Biochemistry ;
+	dbo:nationality	dbr:Americans ;
+	foaf:depiction	<http://commons.wikimedia.org/wiki/Special:FilePath/L_Pauling.jpg> ;
+	foaf:isPrimaryTopicOf	wikipedia-en:Linus_Pauling ;
+	dbo:thumbnail	<http://commons.wikimedia.org/wiki/Special:FilePath/L_Pauling.jpg?width=300> ;
+	dbo:deathPlace	dbr:Big_Sur ;
+	dbp:deathPlace	"Big Sur, California, US"@en ;
+	dbo:deathDate	"1994-08-19"^^xsd:date ;
+	dbo:birthPlace	<http://dbpedia.org/resource/Portland,_Oregon> ;
+	dbp:birthPlace	"Portland, Oregon, US"@en ;
+	dbo:birthDate	"1901-02-28"^^xsd:date ;
+	dct:subject	dbc:National_Medal_of_Science_laureates ,
+		dbc:Recipients_of_the_Lomonosov_Gold_Medal ,
+		dbc:American_pacifists ,
+		<http://dbpedia.org/resource/Category:Writers_from_Portland,_Oregon> ,
+		dbc:Guggenheim_Fellows ,
+		dbc:American_people_of_English_descent ,
+		dbc:Lenin_Peace_Prize_recipients ,
+		dbc:Inorganic_chemists ,
+		<http://dbpedia.org/resource/Category:Washington_High_School_(Portland,_Oregon)_alumni> ,
+		dbc:American_people_of_Canadian_descent ,
+		<http://dbpedia.org/resource/Category:1901_births> ,
+		dbc:Nobel_laureates_with_multiple_Nobel_awards ,
+		dbc:Lutheran_pacifists ,
+		dbc:American_people_of_German_descent ,
+		dbc:Nobel_Peace_Prize_laureates ,
+		dbc:Nobel_laureates_in_Chemistry ,
+		<http://dbpedia.org/resource/Category:1994_deaths> ,
+		dbc:Theoretical_chemists ,
+		dbc:American_people_of_Scottish_descent ,
+		dbc:American_anti-war_activists ,
+		dbc:Phi_Kappa_Phi ,
+		dbc:Medal_for_Merit_recipients ,
+		dbc:American_physical_chemists ,
+		dbc:American_atheists ,
+		dbc:Tau_Beta_Pi ,
+		dbc:Deaths_from_prostate_cancer ,
+		dbc:California_Institute_of_Technology_alumni ,
+		dbc:California_Institute_of_Technology_faculty ,
+		dbc:American_biochemists ,
+		dbc:People_associated_with_the_Human_Potential_Movement ,
+		dbc:Members_of_the_American_Philosophical_Society ,
+		dbc:American_biophysicists ,
+		dbc:Sigma_Xi ,
+		dbc:Vannevar_Bush_Award_recipients ,
+		dbc:American_chemists ,
+		<http://dbpedia.org/resource/Category:20th-century_American_chemists> ,
+		dbc:American_Nobel_laureates ,
+		dbc:National_Academy_of_Sciences_laureates ,
+		dbc:American_humanists ;
+	dbo:wikiPageID	37342 ;
+	dbo:wikiPageRevisionID	706355025 ;
+	dbp:academicAdvisors	dbr:Arnold_Sommerfeld ,
+		dbr:Niels_Bohr ;
+	dbp:almaMater	dbr:Oregon_State_University ,
+		dbr:California_Institute_of_Technology ;
+	dbp:birthDate	"1901-02-28"^^xsd:date ;
+	dbp:birthName	"Linus Carl Pauling"@en ;
+	dbp:deathDate	"1994-08-19"^^xsd:date ;
+	dbp:doctoralAdvisor	<http://dbpedia.org/resource/Richard_C._Tolman> ,
+		<http://dbpedia.org/resource/Roscoe_G._Dickinson> ;
+	dbp:doctoralStudents	dbr:William_Lipscomb ,
+		dbr:Edgar_Bright_Wilson ,
+		dbr:Jerry_Donohue ,
+		dbr:Martin_Karplus ,
+		dbr:Matthew_Meselson ;
+	dbp:field	dbr:Biochemistry ,
+		dbr:Quantum_chemistry ;
+	dbp:nationality	dbr:Americans ;
+	dbp:prizes	dbr:NAS_Award_in_Chemical_Sciences ,
+		dbr:Irving_Langmuir_Award ,
+		dbr:National_Medal_of_Science ,
+		dbr:Lenin_Peace_Prize ,
+		dbr:Vannevar_Bush_Award ,
+		dbr:Nobel_Peace_Prize ,
+		dbr:Davy_Medal ,
+		dbr:Priestley_Medal ,
+		dbr:Nobel_Prize_in_Chemistry ,
+		dbr:Lomonosov_Gold_Medal ,
+		dbr:Roebling_Medal ;
+	dbp:wordnet_type	ns16:synset-scientist-noun-1 .
+<http://dbpedia.org/resource/Roscoe_G._Dickinson>	dbo:doctoralStudent	dbr:Arnold_Orville_Beckman ,
+		dbr:Linus_Pauling ,
+		<http://dbpedia.org/resource/Richard_M._Noyes> ;
+	dbp:doctoralStudents	dbr:Linus_Pauling ,
+		<http://dbpedia.org/resource/Richard_M._Noyes> ,
+		dbr:Arnold_Orville_Beckman .
+dbr:Edgar_Bright_Wilson	dbo:doctoralAdvisor	dbr:Linus_Pauling ;
+	dbp:doctoralAdvisor	dbr:Linus_Pauling .
+dbr:Henri_Becquerel	dbo:doctoralStudent	dbr:Marie_Curie ;
+	dbp:doctoralStudents	dbr:Marie_Curie .
+dbr:William_Lipscomb	dbo:doctoralAdvisor	dbr:Linus_Pauling ;
+	dbp:doctoralAdvisor	dbr:Linus_Pauling .
+<http://dbpedia.org/resource/William_Duane_(physicist)>	dbo:influencedBy	dbr:Marie_Curie ;
+	dbp:influences	dbr:Marie_Curie .
+dbr:Marguerite_Perey	dbo:doctoralAdvisor	dbr:Marie_Curie ;
+	dbp:doctoralAdvisor	dbr:Marie_Curie .
+<http://dbpedia.org/resource/\u00C9mile_Henriot_(chemist)>	dbo:doctoralAdvisor	dbr:Marie_Curie ;
+	dbp:doctoralAdvisor	dbr:Marie_Curie .
+dbr:Robert_Abbe	dbo:influencedBy	dbr:Marie_Curie ;
+	dbp:influences	dbr:Marie_Curie .
+dbr:Matthew_Meselson	dbo:doctoralAdvisor	dbr:Linus_Pauling ;
+	dbp:doctoralAdvisor	dbr:Linus_Pauling .
+dbr:Walter_Heitler	dbo:influenced	dbr:Linus_Pauling ;
+	dbp:influenced	dbr:Linus_Pauling .
+dbr:脠ve_Curie	dbo:relative	dbr:Ir猫ne_Joliot-Curie ,
+		dbr:Marie_Curie ,
+		dbr:Pierre_Curie ;
+	dbp:relatives	dbr:Ir猫ne_Joliot-Curie ,
+		dbr:Pierre_Curie ,
+		dbr:Marie_Curie .
+dbr:Gioacchino_Failla	dbo:doctoralAdvisor	dbr:Marie_Curie ;
+	dbp:doctoralAdvisor	dbr:Marie_Curie .
+dbr:The_Radium_Woman	dbo:nonFictionSubject	dbr:Marie_Curie ;
+	dbp:subject	dbr:Marie_Curie .
+wikipedia-en:Linus_Pauling	foaf:primaryTopic	dbr:Linus_Pauling .
+wikipedia-en:Marie_Curie	foaf:primaryTopic	dbr:Marie_Curie .

@@ -1,0 +1,6 @@
+PREFIX dbr: <http://dbpedia.org/resource/>
+PREFIX dbp: <http://dbpedia.org/property/>
+select ?awards
+{
+  dbr:Max_Planck dbp:awards ?awards
+}

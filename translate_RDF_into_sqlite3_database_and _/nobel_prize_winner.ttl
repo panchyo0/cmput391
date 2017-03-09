@@ -1,0 +1,23 @@
+@prefix dbr: <http://dbpedia.org/resource/>.
+@prefix dbo: <http://dbpedia.org/ontology/>.
+@prefix dbp: <http://dbpedia.org/property/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix npp: <http://example.org/property/>.
+
+dbr:Albert_Schweitzer dbo:birthPlace dbr:German,
+                                     dbr:Kaysersberg,
+                                     dbr:Alsace_Lorraine;
+
+                      dbp:birthPlace "Kaysersberg, Alsace-Lorraine, Germany" @en;
+                      dbp:birthDate "1875-01-14"^^xsd:date;
+                      dbp:Fields "Medicine, music, philosophy, theology";
+                      NPP:Nobel_Peace_Prize  "1952";
+                      dbp:deathDate "1965-09-04"^^xsd:date;
+                      dbp:deathPlace "Lambaréné, Gabon" @en;
+                      dbp:prizes dbr:Goethe_Prize,
+                                 dbr:Nobel_Peace_Prize;
+                      dbp:citizenship "German (1875–1919),French (1919–1965)"@en;
+                      dbp:Alma_mater dbr:University_of_Strasbourg;
+                      dbp:advisor dbr:Heinrich_Julius_Holtzmann,
+                                  dbr:Robert_Wollenberg.
+

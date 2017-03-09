@@ -1,0 +1,13 @@
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX dbc: <http://dbpedia.org/resource/Category:>
+PREFIX dbp: <http://dbpedia.org/property/>
+PREFIX dct: <http://purl.org/dc/terms/>
+
+
+
+SELECT ?nobel ?name WHERE{
+
+?nobel dct:subject dbc:Nobel_laureates_with_multiple_Nobel_awards.
+?nobel dbo:birthDate ?birth_date .
+   
+}
